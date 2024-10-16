@@ -1,0 +1,7 @@
+.card-hover .card-lifted,.card-hover.card-lifted {
+    transition: transform .25s ease-in-out
+}
+
+.card-hover:hover .card-lifted,.card-hover:hover.card-lifted {
+    transform: translateY(-0.5rem)
+}

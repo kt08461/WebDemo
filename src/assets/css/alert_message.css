@@ -1,0 +1,29 @@
+.oaerror {
+    background-color: #FFFFFF; /* Default background */
+    padding: 10px;
+    border: 1px solid #eee;
+    border-left-width: 5px;
+    border-radius: 3px;
+    font-family: 'Open Sans', sans-serif;
+    /* font-size: 16px; */
+  }
+
+  .primary {
+    color:  #004085;
+    border-left-color: #3399ff; /* Left side border color */
+    background-color: rgba(51, 153, 255, 0.1); /* Same color as the left border with reduced alpha to 0.1 */
+  }
+
+  .primary strong {
+    color:  #004085;
+  }
+
+  .danger {
+    color:  #d9534f;
+    border-left-color: #d9534f; /* Left side border color */
+    background-color: rgba(217, 83, 79, 0.1); /* Same color as the left border with reduced alpha to 0.1 */
+  }
+
+  .danger strong {
+    color:  #d9534f;
+  }
